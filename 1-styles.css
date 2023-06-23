@@ -320,10 +320,10 @@ main .grid .section h2 {
 }
 
 /*icons*/
-.icon-sound,
-.icon-video,
-.icon-music,
-.icon0-hearing {
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_hearing {
     color: var(--primary-color);
     font-size: 46px;
 }
