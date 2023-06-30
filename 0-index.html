@@ -6,44 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>
     <link rel="stylesheet" href="0-styles.css">
+    <link rel="stylesheet" href="holberton_school-icon/style.css">
+    <link href="normalize.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.png" type="image/ico">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-<!-- Header -->
+    <!-- Header -->
     <header>
-        <div class="header">
-            <nav>
-                <input type="checkbox" id="burger-menu">
-                <label for="burger-menu" id="burger-btn"></label>
-                <img src="images/logo_headphones.png" alt="logo" id="logo">
-                <ul class="header-nav">
-                    <li><a href="#we-do">what we do</a></li>
-                    <li><a href="#results">our results</a></li>
-                    <li><a href="#contact">contact us</a></li>
+        <div>
+            <input id="burger-check" type="checkbox" style="visibility: hidden">
+            <label id="burger-label" for="burger-check">
+                <span id="burger-line"></span>
+            </label>
+            <nav class="nav-bar">
+                <a href="#">
+                    <h1 id="headline"></h1>
+                </a>
+                <ul>
+                    <li><a href="#whatwedo"><strong>what we do</strong></a>
+        </li>
+                    <li><a href="#results"><strong>our results</strong></a>
+        </li>
+                    <li><a href="#contact"><strong>contact us</strong></a>
+        </li>
                 </ul>
             </nav>
-            <!-- Hero -->
-            <div class="header-text">
-                <h1 class="title">Lorem ipsum dolor set amet lorem ipsum</h1>
-                <h3>ipsum dolor set amet lorem ipsum dolor set</h3>
-                <button class="cta-button">CALL TO ACTION</button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
         </div>
     </header>
-
+    <!-- Main -->
     <main>
-
+        <!-- Hero -->
+        <section class="hero-section">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing</h1>
+            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit distinctio</strong>
+            <br>
+            <a href="#cta">CALL TO ACTION</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum hic, officiis nostrum necessitatibus, deleniti amet, corporis harum omnis dolore similique quod at quidem animi. Placeat temporibus eos suscipit fuga! Aperiam nisi rem dolorum, delectus blanditiis odio eligendi optio nobis eos illum porro distinctio.</p>
+        </section>
     </main>
-
+    <!-- Footer -->
     <footer>
     </footer>
-
 </body>
 </html>
